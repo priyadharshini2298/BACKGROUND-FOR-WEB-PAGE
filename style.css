@@ -1,0 +1,78 @@
+
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background: rosybrown;
+}
+.top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(backgroundimg.jpg);
+    /* background-color: aqua; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+
+}
+.hello
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+.hello h1{
+    color: blanchedalmond;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+.hello h1 span{
+    color: blanchedalmond;
+}
+
+.hello a{
+    background: pink;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.hello a:hover{
+    background: gray;
+    color: black;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url(blue-lime-green-blurred-vector-260nw-1285539721.jpg);
+    }
+    20%
+    {
+        background-image: url(blue_background_simple_267950.jpg);
+    }
+    40%
+    {
+        background-image: url(futuristic-horizon-background-with-blue-light_52683-25182.jpg);
+    }
+    60%
+    {
+        background-image: url(istockphoto-1226478932-170667a.jpg);
+    }
+    80%
+    {
+        background-image: url(pngtree-horizontal-vector-halloween-banner-background-with-grunge-border-image_297712.jpg);
+    }
+    100%
+    {
+        background-image: url(backgroundimg.jpg);
+    }
+}
